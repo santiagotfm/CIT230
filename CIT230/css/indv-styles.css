@@ -20,11 +20,9 @@
             th{letter-spacing: -.25em;}
             td{}
             dd{word-spacing:1.5em;}
-            a:hover{font-weight:bold; color:#63D2FF;}
-            {color:rgb(0,0,255);}     
+            a:hover{font-weight:bold; color:#63D2FF;}        
             .dropcap::first-letter {color:purple;font-size:600%;}   
             .sitebranding{font-size:6px; background-color:aqua}               
-            {font-weight:bold;}
             .fs2em {font-size:2em;}
             .fs2ex {font-size:2ex;}
             .fs24px {font-size:24px;}
