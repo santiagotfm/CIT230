@@ -1,0 +1,33 @@
+            body {color:#2081C3; font-family:century gothic;}
+            A:link {color:#2081C3;} 
+            A:visited {color:#2081C3;} 
+            A:active {color:#2081C3;} 
+            header {border:solid; line-height:80%;  justify-content: center;background-color: #78D5D7}          
+            nav{color:#05B2DC;flex-direction: row;}
+            nav ul {border:solid; line-height:80%;color:white;}
+            nav ul li {margin:3px 80px 3px 3px; color:white; float: left;}
+            div#left{width:30%;border:solid;}
+            main strong {color:#78D5D7;font-size:36px;margin-left:50px;}
+            main img {height:150px;width:125px;}
+            aside#home-page-aside{font-size:8px;margin:24px; color:#00FF00;}
+            footer{font-family: scripts; color:rgb(0,0,0);} 
+            footer ul {text-shadow:3px 3px 1px #777777;}
+            footer ul li{display:inline;}
+            h1{color:#F7F9F9;text-align:center;font-family:bold, BOOK ANTIQUA;font-size:x-large;font-style:italic;font-weight:bold;}
+            h2{color:#2081C3;text-align:left;font-family:bold, BOOK ANTIQUA;font-size:x-large;}
+            h3{color:#2081C3;text-align:left;font-family:bold, BOOK ANTIQUA;font-size:x-large;}
+            h4{color: #BED8D4;}
+            th{letter-spacing: -.25em;}
+            td{}
+            dd{word-spacing:1.5em;}
+            a:hover{font-weight:bold; color:#63D2FF;}
+            {color:rgb(0,0,255);}     
+            .dropcap::first-letter {color:purple;font-size:600%;}   
+            .sitebranding{font-size:6px; background-color:aqua}               
+            {font-weight:bold;}
+            .fs2em {font-size:2em;}
+            .fs2ex {font-size:2ex;}
+            .fs24px {font-size:24px;}
+            .fs120prcnt {font-size:120%;}
+            .fs24pt {font-size:24pt;}
+            .fsin {font-size:.5in;}		
