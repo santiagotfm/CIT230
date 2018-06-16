@@ -154,3 +154,20 @@ a:hover {
     color: #78D5D7;
 
 }
+
+audio{
+    width: 90%;
+    margin-left: -8px;
+}
+
+
+        #back {
+            background-image: url(http://drrast.com/wp-content/uploads/2014/06/rast-1.png);
+            
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-attachment: fixed;
+        }
+
+    
