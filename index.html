@@ -14,17 +14,18 @@
         <h1>New Planes Clinic</h1>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="indv-website/clinic.html">Clinic</a></li>
-            <li><a href="indv-website/services.html">Services</a></li>
-            <li><a href="indv-website/appointments.html">Appointments</a></li>
-            <li><a href="indv-website/financial.html">Financial</a></li>
-            <li><a href="indv-website/contact-us.html">Contact Us</a></li>
-            <li><a href="cit230-links.html"> CIT230-links (Link)</a></li>
-        </ul>
-    </nav>
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html">Home</a>
+        <a href="indv-website/clinic.html">Clinic</a>
+        <a href="indv-website/services.html">Services</a>
+        <a href="appointments.html">Appointments</a>
+        <a href="financial.html">Financial</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a href="../cit230-links.html"> CIT230-links (Link)</a>
+        <a href="javascript:void(0);" class="icon visible" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+    </div>
 
     <div id="content">
         <div id="left">
@@ -47,9 +48,9 @@
             </div>
         </div>
         <main id="mainindex">
-            
-            <div style="text-align:center;" > <img src="indv-website/index.jpg" style="max-width: 400px; max-height: 400px" alt="indexphoto"></div>
-         
+
+            <div style="text-align:center;"> <img src="indv-website/index.jpg" style="max-width: 400px; max-height: 400px" alt="indexphoto"></div>
+
 
             <p>The New Planes is a Clinic of Plastic, Aesthetic and Reconstructive Surgery in San Diego, California. The Clinic has plastic surgeons well trained and members of the United States Society of Plastic Surgery. We offer our clients the latest treatments in cosmetic surgery and plastic surgery with the most advanced technology. Among them: Blepharoplasty, Cheek Enhancement, Dermabrasion, Forehead Lift, Mentoplasty, Otoplasty, Rhinoplasty, Gynecomastia, Liposuction, Mammaplasty, and Scar correction.</p>
 
@@ -73,6 +74,17 @@
         <p><a href="indv-website/contact-us.html">Contact Information</a></p>
         <p><a href="#hours">Hours of Operation</a></p>
     </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
 
 </html>
