@@ -6,12 +6,23 @@
     <meta name="keywords" content="clinic, plastic surgery, benefit, san diego, medical services">
     <meta name="description" content="Schedule an appointment">
     <title>Schedule</title>
-    <link href="../CIT230/css/indv-styles.css" rel="stylesheet" type="text/css">
+    <link href="../css/indv-styles.css" rel="stylesheet" type="text/css">
 
     
     <script>
     <!--  JS date  -->
-        
+        function displayDate(){
+            var d=new Date();
+            var year=d.getFullYear();
+            var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+            var month = monthNames[d.getMonth()];
+            var daysNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            var day = daysNames[d.getDay()];
+            var dayNumber = d.getUTCDay();
+            
+            var currentDate = day + " " + dayNumber + ", " + month + " " + year;
+            document.getElementById("currentDate").innerHTML= currentDate;
+        }
         function confirmation(){
             var txt;
             var answer = confirm("are you sure you want to submit this form?");
@@ -52,6 +63,7 @@
             </form>
 <br>
         <button onclick="clearForm()">Clear Form</button>    
+        <button onclick="displayDate()">Current Date</button><span id="currentDate"></span>
     </main>
 
     <footer>

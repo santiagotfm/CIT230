@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="clinic, plastic surgery, san diego, medical services, financial">
+    <meta name="description " content="Financial info, Plastic Surery Clinic in San Diego, California ">
+    <title>Financial</title>
+    <link href="../css/indv-styles.css" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    
+    </script>
+    <script>
+    $(document).ready(function(){
+        $("#show").click(function(){
+            $(".test").show();
+        });
+        $("#hide").click(function(){
+            $(".test").hide();
+        });
+    });
+        $(document).ready(function(){
+    $("#nobutton").click(function(){
+        $(this).hide();
+    });
+});
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <h1>New Planes Clinic</h1>
+        
+    </header>
+    <nav>
+          <a href="../index.html">Home</a>
+          <a href="clinic.html">Clinic</a>
+          <a href="services.html">Services</a>
+          <a href="appointments.html">Appointments</a>
+          <a href="financial.html">Financial</a>
+          <a href="contact-us.html">Contact Us</a>
+          <a href="../cit230-links.html"> CIT230-links (Link)</a> 
+    </nav>
+    <div id="content">
+        <div id="left">
+            <a href="payment-methods.html">
+                <h2>Payment Methods</h2>
+            </a>
+            <a href="payment-methods.html">
+                    <img src="../../indv-website/financial.jpg" style="max-width: 90%; max-height: 100%" alt="financialphoto">
+                </a>
+
+        </div>
+        <main id="mainsecond">
+            We offer fair prices to each of our medical proccedures, your first consultation and diagnosis are completely free. The prices are subject to the type of surgery and the person and it is determined after the consult appointment. We offer different payment methods and financial plans.
+            <br>
+            
+            <button id="hide" onclick="hideInfo()">
+            Click here to see less info
+            </button>
+            
+            <button id="show" onclick="showInfo()">
+            Click here to see more info again
+            </button>
+            
+            <br><br>
+            <p class="test">More info.</p><br>
+            <button id="nobutton">Click here to delete this button</button>
+            
+            
+        </main>
+
+
+    </div>
+    <footer>
+        <p><a href="#">Copyright</a></p>
+        <p><a href="more-info.html">About Us</a></p>
+        <p><a href="contact-us.html">Contact Information</a></p>
+        <p><a href="../index.html#hours">Hours of Operation</a></p>
+    </footer>
+
+</body>
+
+</html>
