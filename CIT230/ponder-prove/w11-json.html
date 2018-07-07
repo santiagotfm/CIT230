@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="clinic, plastic surgery, san diego, medical services">
+    <meta name="description " content="Plastic Surery Clinic in San Diego, California ">
+    <title>New Planes Contact Us</title>
+    <link href="../css/indv-styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onload="loadMap()">
+    <header>
+        <h1>New Planes Clinic</h1>
+    </header>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="clinic.html">Clinic</a>
+        <a href="services.html">Services</a>
+        <a href="appointments.html">Appointments</a>
+        <a href="financial.html">Financial</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a href="../cit230-links.html"> CIT230-links (Link)</a>
+    </nav>
+
+    <main>
+        <h2>New Planes Clinics</h2>
+        <h3>Contact Information</h3>
+        <p>If you have any questions or concerns about New Planes, please call 1-800-411-2381.</p>
+        <p>You cand send an e-mail to: <a href="newplanesclinic@gmail.com">newplanesclinic@gmail.com</a></p>
+        <p>You can also send mail to New Planes Clinic at the following address:</p>
+        <p>P.O. Box 234<br/>
+            <p>San Diego, CA, 92105</p>
+
+            <div id="map" style="width:640px; height:480px;"></div>
+            <script type="text/javascript" src="week11-json-data%202.json">
+
+
+            </script>
+            <script>
+                function loadMap() {
+                    // Initialize Google Maps
+                    const mapOptions = {
+                        center: new google.maps.LatLng(32.748030, -117.182317),
+                        zoom: 15
+                    }
+                    const map = new
+                    google.maps.Map(document.getElementById("map"), mapOptions);
+
+                    // Load JSON Data
+                    var mydata = JSON.parse(data);
+
+                    // Initialize Google Markers
+                    for (x = 0; x < 3; x++) {
+                        let marker = new google.maps.Marker({
+                            map: map,
+                            position: new
+                            google.maps.LatLng(mydata[x].location[0], mydata[x].location[1]),
+                            title: mydata[x].name
+
+                        })
+                    }
+                }
+
+            </script>
+
+            <script src="https://maps.googleapis.com/maps/api/js"></script>
+    </main>
+    <a href="more-info.html">
+        <h2>More info</h2>
+    </a>
+
+    <footer>
+        <p><a href="#">Copyright</a></p>
+        <p><a href="more-info.html">About Us</a></p>
+        <p><a href="contact-us.html">Contact Information</a></p>
+        <p><a href="../index.html#hours">Hours of Operation</a></p>
+    </footer>
+</body>
+
+</html>
