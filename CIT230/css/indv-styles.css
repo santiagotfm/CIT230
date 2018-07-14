@@ -85,6 +85,10 @@ main {
     text-align: justify;
     margin-bottom: 20px;
 }
+table {
+    width: auto;
+    
+}
 
 aside {
     width: 25%;
@@ -145,7 +149,8 @@ h3 {
 }
 
 h4 {
-    color: #BED8D4;
+    color: #2081C3;
+    font-size: large;
 }
 
 a:hover {
@@ -153,6 +158,12 @@ a:hover {
     color: #78D5D7;
 
 }
+
+td {
+    text-align: left;
+    width: 50%;
+}
+
 
 
 
@@ -236,14 +247,70 @@ a:hover {
         font-style: italic;
         font-weight: bold;
     }
-    footer {
-        width: 100%;
-        bottom: 0;
-        font-family: scripts;
-        font-size: 30px;
-        flex-direction: column;
-        text-align: center;
-        background-color: #63D2FF;
-        border: solid;
+    td {
+        text-align: left;
+         width: 50%;
     }
+    footer {
+    width: 100%;
+    bottom: 0;
+    font-family: scripts;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #63D2FF;
+    border: solid;
+}
+
+footer a:link {
+    text-decoration: none;
+    color: #F7F9F9;
+}
+
+footer a:visited {
+    color: #F7F9F9;
+}
+
+footer a:active {
+    color: #F7F9F9;
+}
+
+footer a:hover {
+    color: #BED8D4;
+}
+
+h1 {
+    color: #F7F9F9;
+    font-weight: bold;
+    text-align: center;
+    font-family: bold, BOOK ANTIQUA;
+    font-size: 55px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h2 {
+    color: #2081C3;
+    text-align: left;
+    font-family: bold, BOOK ANTIQUA;
+    font-size: x-large;
+}
+
+h3 {
+    color: #2081C3;
+    text-align: left;
+    font-family: bold, BOOK ANTIQUA;
+    font-size: x-large;
+}
+
+h4 {
+    color: #2081C3;
+    font-size: large;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #78D5D7;
+
+}
 }
