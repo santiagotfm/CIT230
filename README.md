@@ -1,2 +1,2 @@
-# santiagotfm.github.io/CIT230
+# santiagotfm.github.io
 CIT 230
